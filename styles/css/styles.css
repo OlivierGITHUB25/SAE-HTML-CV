@@ -1,0 +1,51 @@
+body{
+	margin: 0%;
+	padding: 0%;
+}
+/*définition des propriétés du menu */
+nav{
+	width: 100%;
+	background-color: #424558;
+}
+nav ul{
+	padding: 0%;
+	margin: 0%;
+	overflow: hidden;
+}
+nav li{
+	list-style-type: none;
+	float: left;
+}
+nav li a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #ffffff;
+}
+nav li :hover{
+	border-top: 5px solid #C17243;
+	background-color: rgba(193, 114, 67, 0.15) ;
+}
+header h1{
+	font-size: 2em;
+	float: right;
+	text-align: right;
+	margin: 0%;
+	padding: 0%;
+	padding-right: 1%; 
+	padding-top: 1%; 
+	display: inline-block;
+}
+.texthead{
+ 	font-family:Helvetica,  sans-serif;
+}
+.logo{
+	display: inline-block;
+	width: 7em;
+	height:auto;
+	margin: 0.5em;
+	margin-bottom: 0.3em;
+}
+.text{
+	font-family:'Roboto',sans-serif;
+}
