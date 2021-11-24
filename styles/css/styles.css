@@ -1,8 +1,13 @@
 body{
 	margin: 0%;
 	padding: 0%;
+	background: url("../media/15-Presentation-Background-Examples16.jpeg")no-repeat center fixed;
+	background-size: cover;
 }
 /*définition des propriétés du menu */
+header{
+	background-color: white;
+}
 nav{
 	width: 100%;
 	background-color: #424558;
@@ -48,4 +53,59 @@ header h1{
 }
 .text{
 	font-family:'Roboto',sans-serif;
+}
+.display{
+	display: flex;
+	flex-basis: 100%;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	flex-wrap: wrap;
+}
+.art1{
+	background-color: grey;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.art2{
+	background-color: green;
+	margin: 0.2%;
+}
+.art3{
+	background-color: yellow;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.art4{
+	background-color: darkred;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.art5{
+	background-color: pink;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.art6{
+	background-color: blue;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.photo1{
+	width:10em;
+	height: auto;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.photo2{
+	width:10em;
+	height: auto;
+	flex-basis: 20%;
+	margin: 0.2%;
+}
+.photo3{
+	width:10em;
+	height: auto;
+	flex-basis: 20%;
+	margin: 0.2%;
 }
