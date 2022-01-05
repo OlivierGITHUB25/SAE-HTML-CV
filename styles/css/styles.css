@@ -56,30 +56,44 @@ header h1{
 }
 .display{
 	display: flex;
-	flex-basis: 100%;
-	margin-top: 5%;
-	margin-left: 10%;
-	margin-right: 10%;
 	flex-wrap: wrap;
+	flex-basis: 80%;
 }
 .art1{
+	padding: 1%;
+	margin: 1%;
+	box-sizing: border-box;
 	background-color: grey;
-	flex-basis: 20%;
-	margin: 0.2%;
+	flex-basis: 30%;
+	border-radius: 1%;
+	border-radius: .25rem;
+	box-shadow: 0px 1px 2px 0px #313138;
 }
 .art2{
+	padding: 1%;
+	margin: 1%;
+	box-sizing: border-box;
 	background-color: green;
-	margin: 0.2%;
+	flex-basis:66%;
+	border-radius: 1%;
+	border-radius: .25rem;
+	box-shadow: 0px 1px 2px 0px #313138;
+
 }
 .art3{
+	padding: 1%;
+	margin: 1%;
+	box-sizing: border-box;
 	background-color: yellow;
-	flex-basis: 20%;
-	margin: 0.2%;
+	flex-basis: 100%;
+	border-radius: 1%;
+	border-radius: .25rem;
+	box-shadow: 0px 1px 2px 0px #313138;
 }
 .art4{
 	background-color: darkred;
 	flex-basis: 20%;
-	margin: 0.2%;
+	margin: 0%;
 }
 .art5{
 	background-color: pink;
@@ -91,21 +105,64 @@ header h1{
 	flex-basis: 20%;
 	margin: 0.2%;
 }
-.photo1{
-	width:10em;
-	height: auto;
+.présentation{
+	background-color: yellow;
 	flex-basis: 20%;
-	margin: 0.2%;
+	width: 20%;
+	margin-top: 1%;
+	margin-bottom:1% ;
+	border-radius: .25rem;
+	box-shadow: 0px 1px 2px 0px #313138;
 }
-.photo2{
-	width:10em;
-	height: auto;
-	flex-basis: 20%;
-	margin: 0.2%;
+.présentation p {
+	padding: 5%;
+	color: green;
 }
-.photo3{
-	width:10em;
-	height: auto;
-	flex-basis: 20%;
-	margin: 0.2%;
+.présentation h1{
+	padding: 5%;
+	padding-bottom:0% ;
+	color: green;
+}
+.photoMoi{
+	display: block;
+	width: 80%;
+	margin: auto;
+	margin-top: 5%;
+	border-radius: 50%;
+	border: 2px solid white;
+	/*clip-path:ellipse(33% 50%);*/ 
+}
+aside article h1{
+	padding: 0%;
+	margin: 0%;
+}
+.présentation h2{
+	padding: 5%;
+	padding-bottom:0% ;
+	margin: 0%;
+	color: green;
+	font-size: 1.1em;
+}
+section article p{
+	padding: 1%;
+	text-align: justify;
+}
+.page{
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+	align-items: stretch;
+	width: 80%;
+
+}
+.list{
+	text-align: justify;
+	list-style-type: none;
+	padding: 5%;
+	padding-top: 0%;
+	margin: 0%;
+}
+.list a {
+	text-decoration: none;
+	color: black;
 }
