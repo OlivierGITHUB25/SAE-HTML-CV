@@ -53,6 +53,7 @@ header h1{
 }
 .text{
 	font-family:'Roboto',sans-serif;
+	color: #F0FFF0;
 }
 .display{
 	display: flex;
@@ -63,7 +64,7 @@ header h1{
 	padding: 1%;
 	margin: 1%;
 	box-sizing: border-box;
-	background-color: grey;
+	background-color: #696969;
 	flex-basis: 30%;
 	border-radius: 1%;
 	border-radius: .25rem;
@@ -73,7 +74,7 @@ header h1{
 	padding: 1%;
 	margin: 1%;
 	box-sizing: border-box;
-	background-color: green;
+	background-color: #708090;
 	flex-basis:66%;
 	border-radius: 1%;
 	border-radius: .25rem;
@@ -84,34 +85,34 @@ header h1{
 	padding: 1%;
 	margin: 1%;
 	box-sizing: border-box;
-	background-color: yellow;
+	background-color: #696969;
 	flex-basis: 100%;
 	border-radius: 1%;
 	border-radius: .25rem;
 	box-shadow: 0px 1px 2px 0px #313138;
 }
-.art4{
+.passion{
 	padding: 1%;
 	margin: 1%;
 	box-sizing: border-box;
-	background-color: yellow;
+	background-color: #696969;
 	border-radius: 1%;
 	border-radius: .25rem;
 	box-shadow: 0px 1px 2px 0px #313138;
 	flex-basis: 49%;
 }
-.art5{
+.materiel{
 	padding: 1%;
 	margin: 1%;
 	box-sizing: border-box;
-	background-color: green;
+	background-color: #708090;
 	border-radius: 1%;
 	border-radius: .25rem;
 	box-shadow: 0px 1px 2px 0px #313138;
-	flex-basis: 49%;
+	flex-basis: 100%;
 }
 .présentation{
-	background-color: yellow;
+	background-color: #708090;
 	flex-basis: 20%;
 	width: 20%;
 	margin-top: 1%;
@@ -145,7 +146,7 @@ aside article h1{
 	padding: 5%;
 	padding-bottom:0% ;
 	margin: 0%;
-	color: green;
+	color: #F0FFF0;
 	font-size: 1.1em;
 }
 section article p{
@@ -169,7 +170,7 @@ section article p{
 }
 .list a {
 	text-decoration: none;
-	color: black;
+	color: #F0FFF0;
 }
 .display2{
 	display: flex;
@@ -183,10 +184,31 @@ section article p{
 	box-shadow: 0px 1px 2px 0px #313138;
 	width: 47%;
 }
-.photo2{
-	margin: 1%;
-	border-radius: 1%;
-	border-radius: .25rem;
-	box-shadow: 0px 1px 2px 0px #313138;
-	width: 47%;
+.texthead h1{
+	padding-bottom:0% ;
+	margin-bottom: 0%;
+	text-align: right;
+	padding-right: 2%;
+	color: white;
+}
+@media screen and (max-width: 1000px) {
+	.display{
+		display: block;
+	}
+	.page{
+		display: block;
+		width: 100%;
+	}
+	.présentation{
+		display: block;
+		width: 0%;
+	}
+	.photo3{
+		display: block;
+		width: 100%;
+	}
+	.passion{
+		width: 100%;
+		flex-basis: 100%;
+	}
 }
